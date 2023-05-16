@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="max-w-sm sm:max-w-6xl mx-auto space-y-5">
+    <div className="max-w-sm sm:max-w-6xl mx-auto space-y-5 mt-11 pb-14">
       <h1 className="text-3xl text-amber-600 mb-9">About</h1>
       <p>
         IMDb, short for the Internet Movie Database, is one of the most popular

@@ -8,7 +8,7 @@ import DarkMode from "./DarkMode";
 const Header = () => {
   return (
     <section className="flex items-center justify-between max-w-sm xl:max-w-6xl sm:max-w-xl mx-auto py-4">
-      <div className="flex items-center gap-6">
+      <div className="flex items-center gap-10">
         <HeaderItem title="Home" address="/" Icon={AiFillHome} />
         <HeaderItem
           title="About"
