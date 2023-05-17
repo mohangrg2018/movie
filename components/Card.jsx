@@ -5,7 +5,7 @@ import { BsFillHandThumbsUpFill } from "react-icons/bs";
 
 const Card = ({ result }) => {
   return (
-    <div className="cursor-pointer sm:p-3 sm:m-2 sm:hover:shadow-slate-400 sm:shadow-md  sm:border sm:border-slate-300 rounded-lg transition-shadow duration-300">
+    <div className="cursor-pointer sm:p-3 sm:m-2 sm:hover:shadow-slate-400 sm:shadow-md  sm:border sm:border-slate-300 rounded-lg transition-shadow duration-300 sm:h-96 lg:h-80">
       <Link href={`/movie/${result.id}`} className="space-y-3">
         <Image
           src={`https://image.tmdb.org/t/p/original/${
