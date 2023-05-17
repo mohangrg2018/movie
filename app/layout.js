@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import "./globals.css";
 import Provider from "@/components/Provider";
 import Nav from "@/components/Nav";
+import SearchMovie from "@/components/SearchMovie";
 
 export const metadata = {
   title: "Movie Database",
@@ -15,8 +16,12 @@ export default function RootLayout({ children }) {
         <Provider>
           {/* HEADER */}
           <Header />
+
           {/* NAV */}
           <Nav />
+
+          {/* SEARCH */}
+          <SearchMovie />
           {children}
 
           {/* FOOTER */}
